@@ -1,0 +1,10 @@
+@dogs.map do |dog|
+  {
+  id: dog.id,
+  name: dog.name,
+  age: dog.name,
+  breed: dog.breed
+  created_at: dog.created_at,
+  updated_at: dog.updated_at
+  }
+end
